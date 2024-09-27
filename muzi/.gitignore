@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 muzi-backend/node_modules/
 node_modules/
+C:\Users\gladw\Desktop\PROJECT\Music\muzi-backend\node_modules
 dist
 dist-ssr
 *.local
