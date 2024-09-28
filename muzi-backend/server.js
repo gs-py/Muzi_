@@ -4,6 +4,7 @@ import "dotenv/config";
 import songRouter from "./src/routes/songRoute.js"; // Import the songRouter
 import connectDb from "./src/config/mongodb.js";
 import connectCloudinary from "./src/config/cloudinary.js";
+import albumRouter from "./src/routes/albumRoutes.js";
 
 // app config
 const app = express();
@@ -24,6 +25,7 @@ app.use(cors()); // frontend to backend
 
 // initializing routes
 app.use("/api/song", songRouter); // Add the songRouter middleware
+app.use("/api/album", albumRouter);
 
 app.get("/", (req, res) => {
   res.send("its from backend");
