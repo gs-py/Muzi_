@@ -38,7 +38,7 @@ A web application designed for music enthusiasts to explore, listen, and manage 
 - Node.js (v14 or higher)
 - MongoDB or access to a database server
 
-## UI Images
+## 🖼️ Screenshots
 ![Image Alt Text](./Admin_panel)
 ![Home_page](./Homepage_image)
 
