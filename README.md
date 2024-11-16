@@ -38,6 +38,9 @@ A web application designed for music enthusiasts to explore, listen, and manage 
 - Node.js (v14 or higher)
 - MongoDB or access to a database server
 
+## UI Images
+![Image Alt Text](./Admin_panel)
+![Home_page](./Homepage_image)
 
 ## 📚 API Endpoints
 
@@ -53,8 +56,6 @@ A web application designed for music enthusiasts to explore, listen, and manage 
 | `DELETE`    | `/api/playlist/:id`            | Delete a playlist                    | ✅                      |
 | `POST`      | `/api/playlist/:id/songs`      | Add a song to a playlist             | ✅                      |
 | `DELETE`    | `/api/playlist/:id/songs/:songId` | Remove a song from a playlist       | ✅                      |
-
-![Image Alt Text](Image URL)
 
 ## 📞 Contact
 
